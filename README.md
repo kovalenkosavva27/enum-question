@@ -11,6 +11,6 @@
 ```plaintext
 Cannot convert string value 'ENROLL_IN_STUDY' from the database to any value in the mapped 'SubjectStatuses' enum.
 ```
-## Вопрос
+## Решение
 
-Есть ли более простое решение, чем создавать свой конвертер?
+EnumMemberValueConverter
